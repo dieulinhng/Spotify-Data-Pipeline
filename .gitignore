@@ -1,0 +1,22 @@
+# Environments
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+
+# Keys
+ServiceKey_GoogleCloud.json
+
+# Cache
+.cache
+
+# Packages
+google-cloud-cli-darwin-arm.tar.gz
+
+# Folder
+google-cloud-sdk/
+airflow/logs
