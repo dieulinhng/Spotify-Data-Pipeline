@@ -1,0 +1,4 @@
+{"timestamp":"2025-08-30T05:03:03.861267","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-30T05:03:03.864056","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-30T05:03:06.329102","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-30T05:03:35.374199","level":"warning","event":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /v1/albums/7q1TeeUyad14ank0ywJvKn/tracks/?limit=50&offset=0","logger":"urllib3.connectionpool"}

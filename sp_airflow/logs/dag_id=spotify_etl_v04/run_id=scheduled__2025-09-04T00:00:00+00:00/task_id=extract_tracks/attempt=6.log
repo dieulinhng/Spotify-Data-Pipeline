@@ -1,0 +1,5 @@
+{"timestamp":"2025-09-05T09:56:37.175030","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-05T09:56:37.182125","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-05T09:56:38.983562","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-09-05T09:57:30.982570Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_found","message":"Task Instance not found"}},"logger":"task"}
+{"timestamp":"2025-09-05T09:57:31.015027Z","level":"error","event":"Task killed!","logger":"task"}

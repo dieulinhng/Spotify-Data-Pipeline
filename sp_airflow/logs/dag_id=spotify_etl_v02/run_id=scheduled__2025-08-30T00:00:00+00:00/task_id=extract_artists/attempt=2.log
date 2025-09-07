@@ -1,0 +1,4 @@
+{"timestamp":"2025-08-30T01:51:53.482642","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-30T01:51:53.485981","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-30T01:51:55.329627","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-30T01:51:55.355257","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}

@@ -12,7 +12,9 @@ bucket_names = [
     'spotify_kworb_artist_names',
     'artist_id_and_name',
     'spotify_raw_bucket',
-    'spotify_transform_bucket'
+    'spotify_transform_bucket',
+    'spotify_raw_bucket_v2',
+    'spotify_transform_bucket_v2'
 ]
 
 for name in bucket_names:

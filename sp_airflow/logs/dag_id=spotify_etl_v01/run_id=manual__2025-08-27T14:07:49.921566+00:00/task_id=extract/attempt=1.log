@@ -1,0 +1,5 @@
+{"timestamp":"2025-08-27T14:07:51.202351","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T14:07:51.203182","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T14:07:52.401067","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T14:07:52.410342","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T14:12:34.608742","level":"warning","event":"Your application has reached a rate/request limit. Retry will occur after: 3093","logger":"root"}

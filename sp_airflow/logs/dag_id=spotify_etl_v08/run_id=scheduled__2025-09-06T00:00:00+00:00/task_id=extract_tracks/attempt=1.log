@@ -1,0 +1,6 @@
+{"timestamp":"2025-09-06T11:10:08.871735","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-06T11:10:08.874812","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl_v2.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-06T11:10:11.207237","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-09-06T11:11:34.487555","level":"info","event":"Data stream uploaded to 20250906/track.json in spotify_raw_bucket_v2 bucket","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.gcs.GCSHook"}
+{"timestamp":"2025-09-06T11:11:35.517386","level":"info","event":"Data stream uploaded to 20250906/track_artists.json in spotify_raw_bucket_v2 bucket","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.gcs.GCSHook"}
+{"timestamp":"2025-09-06T11:11:35.532107","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
