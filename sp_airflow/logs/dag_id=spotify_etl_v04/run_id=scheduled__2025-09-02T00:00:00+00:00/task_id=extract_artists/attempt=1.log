@@ -1,5 +1,0 @@
-{"timestamp":"2025-09-02T00:20:28.554582","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
-{"timestamp":"2025-09-02T00:20:28.556497","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_etl.py","logger":"airflow.models.dagbag.DagBag"}
-{"timestamp":"2025-09-02T00:20:32.117584","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
-{"timestamp":"2025-09-02T00:20:32.137159","level":"info","event":"Connection Retrieved 'gcp_spotify'","logger":"airflow.hooks.base"}
-{"timestamp":"2025-09-02T00:20:40.290669","level":"warning","event":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0xffff859c9610>: Failed to resolve 'oauth2.googleapis.com' ([Errno -3] Temporary failure in name resolution)\")': /token","logger":"urllib3.connectionpool"}
